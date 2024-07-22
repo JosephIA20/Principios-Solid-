@@ -1,5 +1,4 @@
-﻿
-namespace Ejemplos1
+﻿namespace Ejmplos1.SRP
 {
     public class PersonaRef
     {
@@ -26,7 +25,7 @@ namespace Ejemplos1
         ///Ahora cada clase tiene solo una unica responsabilidad y una sola razon para cambiar.
         /// </summary>
     }
-    public class Correos 
+    public class Correos
     {
         public void EnviarCorreosElectrónico()
         {

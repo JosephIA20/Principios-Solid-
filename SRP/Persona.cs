@@ -1,6 +1,4 @@
-﻿
-
-namespace Ejemplos1
+﻿namespace Ejmplos1.SRP
 {
     public class Persona
     { /// <summary>
@@ -12,11 +10,11 @@ namespace Ejemplos1
         private string correoElectronico;
 
 
-          /*
-        * SRP o Principio de responsabilidad única se refiere a que una clase, método o
-        * modulo debería de tener solamente una responsabilidad, es decir, solamente una
-        * razón para cambiar
-        */
+        /*
+      * SRP o Principio de responsabilidad única se refiere a que una clase, método o
+      * modulo debería de tener solamente una responsabilidad, es decir, solamente una
+      * razón para cambiar
+      */
 
 
         /// <summary>
@@ -31,7 +29,7 @@ namespace Ejemplos1
         /// <param name="Mensaje"></param>
         public void EnviarCorreosElectronicos(string Mensaje)
         {
-   //Logia para enviar correos
+            //Logia para enviar correos
         }
 
         /// <summary>
@@ -49,5 +47,5 @@ namespace Ejemplos1
 
     }
 
-    
+
 }
