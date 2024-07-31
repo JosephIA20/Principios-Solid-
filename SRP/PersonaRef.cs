@@ -30,6 +30,7 @@
         public void EnviarCorreosElectrónico()
         {
             //Logica para enviar correos
+            Console.WriteLine("Se esta enviando un correo electronico");
         }
     }
 
